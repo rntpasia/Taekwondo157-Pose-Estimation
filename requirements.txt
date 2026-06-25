@@ -1,8 +1,9 @@
-streamlit==1.48.0
-ultralytics==8.3.0
-opencv-python-headless
-pillow
-numpy
+streamlit
+ultralytics
 torch
-gdown
 torchvision
+opencv-python-headless
+numpy
+pandas
+pillow
+gdown
