@@ -45,28 +45,12 @@ model = load_model()
 # TITLE
 # --------------------------------------------------
 
-st.title("🥋 Taekwondo Pose Estimation")
+st.title("Taekwondo Pose Estimation: Form 1, 5, 7")
 
 st.write(
     "Upload a Taekwondo image to detect body keypoints using YOLO Pose."
 )
 
-# --------------------------------------------------
-# OVERALL METRICS
-# --------------------------------------------------
-
-st.subheader("Model Performance")
-
-col1, col2, col3, col4 = st.columns(4)
-
-# Replace with your actual results
-
-col1.metric("mAP@50", "96.4%")
-col2.metric("mAP@50-95", "89.2%")
-col3.metric("Precision", "94.8%")
-col4.metric("Recall", "95.7%")
-
-st.divider()
 
 # --------------------------------------------------
 # IMAGE UPLOAD
